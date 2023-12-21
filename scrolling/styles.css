@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.scrolling {
+    position: relative;
+    height: 200vh;
+    width: 400vh;
+}
+
+.scrolling img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    position: absolute;
+}
+

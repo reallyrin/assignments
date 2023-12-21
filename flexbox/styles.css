@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; 
+}
+
+header {
+    color: beige;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: beige;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    font-weight: 5;
+    padding: 20px;
+
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    max-width: 100%;
+    margin: 20px;
+}
+
+.images {
+    padding: 10px;
+}
+
+.images img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
